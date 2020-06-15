@@ -20,7 +20,7 @@ function setup() {
   createCanvas(500,500);
 
   spaceS = createSprite(250, 250, 50, 50);
-  //spaceS.addImage(spaceI);
+  spaceS.addImage(spaceI);
   spaceS.scale = 1.5
   //spaceS.shapeColor = "white";
 
